@@ -3,9 +3,13 @@ export default {
   content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
   theme: {
     fontFamily: {
-      pizza: 'Roboto, monospace',
+      sans: 'Roboto Mono, monospace',
     },
-    extend: {},
+    extend: {
+      height: {
+        dvh: '100dvh',
+      },
+    },
   },
   plugins: [],
 };
